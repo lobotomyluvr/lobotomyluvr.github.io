@@ -1,0 +1,36 @@
+html,
+
+.merriweather-<uniquifier> {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #AD7F91;
+}
+
+body {
+  background-image: url('cellphones.jpg');
+}
+
+p {
+	background-color: white;
+	color: hotpink;
+	
+  font-size: 35px;
+	
+}
+img {
+  border: 20px solid #ddd;
+  border-radius: 20px;
+  padding: 20px;
+  width: 550px;
+}
+
+

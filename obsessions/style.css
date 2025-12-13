@@ -1,0 +1,53 @@
+html,
+
+.rubik-iso-regular {
+  font-family: "Rubik Iso", system-ui;
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+text-align: center;
+	background-color: pink;
+line-height:10rem;
+	
+	background: #91799c;
+background: linear-gradient(90deg, rgba(145, 121, 156, 1) 0%, rgba(98, 108, 138, 1) 48%, rgba(165, 173, 209, 1) 72%, rgba(214, 214, 154, 1) 100%);
+}
+p {
+	font-size: 3rem;
+	line-height: 1.8rem;
+	text-align: center;
+	white-space: pre-line;
+}
+u {
+	text-decoration-thickness:6px;
+}
+
+}
+.blur {
+	filter:blur(1px);
+}
+.blur-bold {
+	filter:blur(0.2px);
+	font-weight: bold;
+}
+.upside-down {
+	display: inline-block;
+	transform: rotate(180deg);
+}
+#obesessions
+position: absolute;
+top: 100px;
+left: 150px;
+font-weight: normal;
+text-shadow: 8px 10px 12px black;
+
+}
+
+
+
